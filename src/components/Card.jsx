@@ -12,6 +12,8 @@ const Card = ({ icon, description, image, type, name, actualPrice, lastPrice }) 
       justifyContent={'center'}
       alignItems={'center'}
       gap={'20px'}
+      minWidth={'300px'}
+      maxWidth={'600px'}
 
       sx={{
 
@@ -43,13 +45,14 @@ const Card = ({ icon, description, image, type, name, actualPrice, lastPrice }) 
           xl: '420px',
           lg: '420px',
           md: '420px',
-          sm: '90%',
-          xs: '90%'
+          sm: '85%',
+          xs: '85%'
         },
 
       }}
     >
       <Box
+
         sx={{
 
           display: {
@@ -116,7 +119,7 @@ const Card = ({ icon, description, image, type, name, actualPrice, lastPrice }) 
           height={'100%'}
           style={{
             borderTopLeftRadius: '12px',
-            borderTopRightRadius: '12px'
+            borderBottomLeftRadius: '12px'
 
           }}
 

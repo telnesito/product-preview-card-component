@@ -9,6 +9,9 @@ function App() {
       bgcolor={"hsl(30, 38%, 92%)"}
       boxSizing={'border-box'}
       height={'100vh'}
+      minHeight={'760px'}
+      minWidth={'300px'}
+
       width={'100vw'}
       display={'flex'}
       justifyContent={'center'}
